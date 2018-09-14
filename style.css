@@ -1,0 +1,33 @@
+li {
+    padding: 2px 10px;
+    margin: 0px;
+    background-color: #ededed;
+    display: inline-block;
+    text-transform: lowercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orangered;
+    border-bottom:3px solid #EDEDED;
+    border-radius: 10px;
+        
+}
+
+li.font {
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+background {
+    background-image: url("/images/background.jpg");
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: orange;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: lowercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
