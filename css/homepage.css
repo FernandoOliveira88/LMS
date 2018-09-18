@@ -10,16 +10,17 @@ li {
     margin: 3px;
     border-radius: 30px;
     display: inline-block;
+    transition: background-color 1s;
+}
+
+li:hover {
+    background-color: black;
 }
 
 a:link, a:visited {
     text-decoration: none;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-header {
-    border-bottom: 2px white solid;
 }
 
 p {
@@ -43,10 +44,7 @@ body {
 }
 
 img {
-    width: 300px;
-}
-
-footer {
-    background-color: green;
-    border-bottom: 2px white solid;
+    width: 150px;
+    position: absolute;
+    top: -20px;
 }
