@@ -25,11 +25,18 @@ a:link, a:visited {
 
 p {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: red;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
 }
 
 h2 {
@@ -38,6 +45,18 @@ h2 {
     position: absolute;
     left: 170px;
     top: 50px;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 body {
@@ -62,4 +81,9 @@ footer {
     background-color: gray;
     width: 100%;
     text-align: center;
+}
+
+b {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
