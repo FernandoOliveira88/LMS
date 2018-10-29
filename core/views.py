@@ -14,3 +14,12 @@ def listascursos(request):
 
 def noticias(request):
     return render(request, 'noticias.html')
+
+def login(request):
+    return render(request, 'login.html')
+
+def area_do_professor(request):
+    return render(request, 'area_do_professor.html')
+
+def area_do_aluno(request):
+    return render(request, 'area_do_aluno.html')

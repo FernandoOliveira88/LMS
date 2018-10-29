@@ -15,7 +15,7 @@ nav#menu li {
 }
 
 li:hover {
-    background-color: black;.
+    background-color: black;
 }
 
 li {
@@ -44,7 +44,9 @@ h3 {
 }
 
 body {
-    background-color: black;
+    background-image: url("../img/fundo-cybertech.png");
+    background-size: 100%;
+    background-position: center;
 }
 
 img {

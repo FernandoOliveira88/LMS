@@ -10,5 +10,8 @@ urlpatterns = [
     path('disciplinas', disciplinas),
     path('listascursos', listascursos),
     path('noticias', noticias),
+    path('login', login),
+    path('area_do_professor', area_do_professor),
+    path('area_do_aluno', area_do_aluno),
     path('admin/', admin.site.urls),
 ]
